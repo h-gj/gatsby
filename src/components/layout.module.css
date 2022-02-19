@@ -17,6 +17,16 @@
 }
 .nav-link-text {
   color: black;
+  text-decoration: none;
+
+
+  /* color: #f3e9e9;
+  text-decoration: none;
+  font-size: 20p;
+  border: 1px solid #9950d1;
+  border-radius: 6px;
+  background: #812181;
+  padding: 6px 9px; */
 }
 
 .site-title {
