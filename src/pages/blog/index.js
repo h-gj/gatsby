@@ -6,7 +6,7 @@ import {cArticle, cArticleSubtitle, cArticleTitle} from './blog.module.css'
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="">
       {
         data.allMdx.nodes.map((node) => (
           <article className={cArticle} key={node.id}>
